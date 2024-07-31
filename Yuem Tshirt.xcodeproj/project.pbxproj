@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D336673A2C2D80F500D59CE2 /* GenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33667392C2D80F500D59CE2 /* GenderView.swift */; };
+		D34A05982C2EC6BB005145C0 /* SideCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34A05972C2EC6BB005145C0 /* SideCartView.swift */; };
+		D34A059A2C2EC703005145C0 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34A05992C2EC703005145C0 /* CartItem.swift */; };
+		D34A059C2C2EC81D005145C0 /* CartItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34A059B2C2EC81D005145C0 /* CartItemView.swift */; };
+		D38C24892C29A51E00E89DA4 /* TenorSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D38C24882C29A51E00E89DA4 /* TenorSans-Regular.ttf */; };
+		D38C248D2C29A9FB00E89DA4 /* ColourAndExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38C248C2C29A9FB00E89DA4 /* ColourAndExtensions.swift */; };
+		D398F86F2C2D524F000538DF /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D398F86E2C2D524E000538DF /* SideMenuView.swift */; };
+		D398F8712C2D528A000538DF /* SideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D398F8702C2D528A000538DF /* SideView.swift */; };
+		D3B9AF782C34185200C2830E /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B9AF772C34185200C2830E /* CheckoutView.swift */; };
+		D3C0D8B42C28914B00CEF1FD /* Yuem_TshirtApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C0D8B32C28914B00CEF1FD /* Yuem_TshirtApp.swift */; };
+		D3C0D8B62C28914B00CEF1FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C0D8B52C28914B00CEF1FD /* ContentView.swift */; };
+		D3C0D8B82C28914D00CEF1FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C0D8B72C28914D00CEF1FD /* Assets.xcassets */; };
+		D3C0D8BB2C28914D00CEF1FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C0D8BA2C28914D00CEF1FD /* Preview Assets.xcassets */; };
+		D3C0D8C52C28914D00CEF1FD /* Yuem_TshirtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C0D8C42C28914D00CEF1FD /* Yuem_TshirtTests.swift */; };
+		D3C0D8CF2C28914D00CEF1FD /* Yuem_TshirtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C0D8CE2C28914D00CEF1FD /* Yuem_TshirtUITests.swift */; };
+		D3C0D8D12C28914D00CEF1FD /* Yuem_TshirtUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C0D8D02C28914D00CEF1FD /* Yuem_TshirtUITestsLaunchTests.swift */; };
+		D3C0D8E32C28929900CEF1FD /* typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C0D8E22C28929900CEF1FD /* typealiases.swift */; };
+		D3C0D8E52C2892B100CEF1FD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C0D8E42C2892B100CEF1FD /* Constants.swift */; };
+		D3C0D8E72C2892BD00CEF1FD /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C0D8E62C2892BD00CEF1FD /* Enums.swift */; };
+		D3C0D8EB2C28930500CEF1FD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C0D8EA2C28930500CEF1FD /* HomeView.swift */; };
+		D3C0D8ED2C28975C00CEF1FD /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C0D8EC2C28975C00CEF1FD /* HeaderView.swift */; };
+		D3C58F2B2C2C130F0066BCBE /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C58F2A2C2C130F0066BCBE /* Product.swift */; };
+		D3C58F2D2C2C1CD50066BCBE /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C58F2C2C2C1CD50066BCBE /* CategoryView.swift */; };
+		D3C58F2F2C2C21960066BCBE /* ProductitemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C58F2E2C2C21960066BCBE /* ProductitemView.swift */; };
+		D3C58F312C2C35DA0066BCBE /* TrendingHashtagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C58F302C2C35DA0066BCBE /* TrendingHashtagsView.swift */; };
+		D3C58F332C2C36200066BCBE /* HashtagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C58F322C2C36200066BCBE /* HashtagsView.swift */; };
+		D3C58F352C2C39410066BCBE /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C58F342C2C39410066BCBE /* FooterView.swift */; };
+		D3C902E72C32B8430092C82C /* ProductsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C902E62C32B8430092C82C /* ProductsList.swift */; };
+		D3C902E92C32BA460092C82C /* ProductDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C902E82C32BA460092C82C /* ProductDetailsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3C0D8C12C28914D00CEF1FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3C0D8A82C28914B00CEF1FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3C0D8AF2C28914B00CEF1FD;
+			remoteInfo = "Yuem Tshirt";
+		};
+		D3C0D8CB2C28914D00CEF1FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3C0D8A82C28914B00CEF1FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3C0D8AF2C28914B00CEF1FD;
+			remoteInfo = "Yuem Tshirt";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D33667392C2D80F500D59CE2 /* GenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderView.swift; sourceTree = "<group>"; };
+		D34A05972C2EC6BB005145C0 /* SideCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideCartView.swift; sourceTree = "<group>"; };
+		D34A05992C2EC703005145C0 /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		D34A059B2C2EC81D005145C0 /* CartItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemView.swift; sourceTree = "<group>"; };
+		D38C24882C29A51E00E89DA4 /* TenorSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TenorSans-Regular.ttf"; sourceTree = "<group>"; };
+		D38C248A2C29A57700E89DA4 /* Yuem-Tshirt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Yuem-Tshirt-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D38C248C2C29A9FB00E89DA4 /* ColourAndExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourAndExtensions.swift; sourceTree = "<group>"; };
+		D398F86E2C2D524E000538DF /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		D398F8702C2D528A000538DF /* SideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideView.swift; sourceTree = "<group>"; };
+		D3B9AF772C34185200C2830E /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		D3C0D8B02C28914B00CEF1FD /* Yuem Tshirt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yuem Tshirt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C0D8B32C28914B00CEF1FD /* Yuem_TshirtApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yuem_TshirtApp.swift; sourceTree = "<group>"; };
+		D3C0D8B52C28914B00CEF1FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3C0D8B72C28914D00CEF1FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3C0D8BA2C28914D00CEF1FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3C0D8C02C28914D00CEF1FD /* Yuem TshirtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yuem TshirtTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C0D8C42C28914D00CEF1FD /* Yuem_TshirtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yuem_TshirtTests.swift; sourceTree = "<group>"; };
+		D3C0D8CA2C28914D00CEF1FD /* Yuem TshirtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yuem TshirtUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C0D8CE2C28914D00CEF1FD /* Yuem_TshirtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yuem_TshirtUITests.swift; sourceTree = "<group>"; };
+		D3C0D8D02C28914D00CEF1FD /* Yuem_TshirtUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yuem_TshirtUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D3C0D8E22C28929900CEF1FD /* typealiases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typealiases.swift; sourceTree = "<group>"; };
+		D3C0D8E42C2892B100CEF1FD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D3C0D8E62C2892BD00CEF1FD /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		D3C0D8EA2C28930500CEF1FD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D3C0D8EC2C28975C00CEF1FD /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		D3C58F2A2C2C130F0066BCBE /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		D3C58F2C2C2C1CD50066BCBE /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		D3C58F2E2C2C21960066BCBE /* ProductitemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductitemView.swift; sourceTree = "<group>"; };
+		D3C58F302C2C35DA0066BCBE /* TrendingHashtagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingHashtagsView.swift; sourceTree = "<group>"; };
+		D3C58F322C2C36200066BCBE /* HashtagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashtagsView.swift; sourceTree = "<group>"; };
+		D3C58F342C2C39410066BCBE /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		D3C902E62C32B8430092C82C /* ProductsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsList.swift; sourceTree = "<group>"; };
+		D3C902E82C32BA460092C82C /* ProductDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3C0D8AD2C28914B00CEF1FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C0D8BD2C28914D00CEF1FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C0D8C72C28914D00CEF1FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D38C24872C29A4AF00E89DA4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D38C24882C29A51E00E89DA4 /* TenorSans-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D38C248B2C29A9D900E89DA4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D38C248C2C29A9FB00E89DA4 /* ColourAndExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D3C0D8A72C28914B00CEF1FD = {
+			isa = PBXGroup;
+			children = (
+				D3C0D8B22C28914B00CEF1FD /* Yuem Tshirt */,
+				D3C0D8C32C28914D00CEF1FD /* Yuem TshirtTests */,
+				D3C0D8CD2C28914D00CEF1FD /* Yuem TshirtUITests */,
+				D3C0D8B12C28914B00CEF1FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3C0D8B12C28914B00CEF1FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3C0D8B02C28914B00CEF1FD /* Yuem Tshirt.app */,
+				D3C0D8C02C28914D00CEF1FD /* Yuem TshirtTests.xctest */,
+				D3C0D8CA2C28914D00CEF1FD /* Yuem TshirtUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3C0D8B22C28914B00CEF1FD /* Yuem Tshirt */ = {
+			isa = PBXGroup;
+			children = (
+				D38C248A2C29A57700E89DA4 /* Yuem-Tshirt-Info.plist */,
+				D38C24872C29A4AF00E89DA4 /* Fonts */,
+				D3C0D8E12C28920F00CEF1FD /* Application */,
+				D3C0D8E02C28920400CEF1FD /* Support */,
+				D3C0D8DF2C2891FB00CEF1FD /* Models */,
+				D3C0D8DE2C2891E900CEF1FD /* ViewModels */,
+				D3C0D8DD2C2891D800CEF1FD /* Views */,
+				D3C0D8B52C28914B00CEF1FD /* ContentView.swift */,
+				D3C0D8B72C28914D00CEF1FD /* Assets.xcassets */,
+				D3C0D8B92C28914D00CEF1FD /* Preview Content */,
+			);
+			path = "Yuem Tshirt";
+			sourceTree = "<group>";
+		};
+		D3C0D8B92C28914D00CEF1FD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D3C0D8BA2C28914D00CEF1FD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D3C0D8C32C28914D00CEF1FD /* Yuem TshirtTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3C0D8C42C28914D00CEF1FD /* Yuem_TshirtTests.swift */,
+			);
+			path = "Yuem TshirtTests";
+			sourceTree = "<group>";
+		};
+		D3C0D8CD2C28914D00CEF1FD /* Yuem TshirtUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3C0D8CE2C28914D00CEF1FD /* Yuem_TshirtUITests.swift */,
+				D3C0D8D02C28914D00CEF1FD /* Yuem_TshirtUITestsLaunchTests.swift */,
+			);
+			path = "Yuem TshirtUITests";
+			sourceTree = "<group>";
+		};
+		D3C0D8DD2C2891D800CEF1FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3C0D8E92C2892D500CEF1FD /* SupportingWiev */,
+				D3C0D8E82C2892C600CEF1FD /* MainView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D3C0D8DE2C2891E900CEF1FD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D3C0D8DF2C2891FB00CEF1FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D3C58F2A2C2C130F0066BCBE /* Product.swift */,
+				D34A05992C2EC703005145C0 /* CartItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D3C0D8E02C28920400CEF1FD /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				D38C248B2C29A9D900E89DA4 /* Extensions */,
+				D3C0D8E22C28929900CEF1FD /* typealiases.swift */,
+				D3C0D8E42C2892B100CEF1FD /* Constants.swift */,
+				D3C0D8E62C2892BD00CEF1FD /* Enums.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		D3C0D8E12C28920F00CEF1FD /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D3C0D8B32C28914B00CEF1FD /* Yuem_TshirtApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D3C0D8E82C2892C600CEF1FD /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				D3C0D8EA2C28930500CEF1FD /* HomeView.swift */,
+				D398F86E2C2D524E000538DF /* SideMenuView.swift */,
+				D3C902E62C32B8430092C82C /* ProductsList.swift */,
+				D3C902E82C32BA460092C82C /* ProductDetailsView.swift */,
+				D3B9AF772C34185200C2830E /* CheckoutView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		D3C0D8E92C2892D500CEF1FD /* SupportingWiev */ = {
+			isa = PBXGroup;
+			children = (
+				D3C0D8EC2C28975C00CEF1FD /* HeaderView.swift */,
+				D3C58F2C2C2C1CD50066BCBE /* CategoryView.swift */,
+				D3C58F2E2C2C21960066BCBE /* ProductitemView.swift */,
+				D3C58F302C2C35DA0066BCBE /* TrendingHashtagsView.swift */,
+				D3C58F322C2C36200066BCBE /* HashtagsView.swift */,
+				D3C58F342C2C39410066BCBE /* FooterView.swift */,
+				D398F8702C2D528A000538DF /* SideView.swift */,
+				D33667392C2D80F500D59CE2 /* GenderView.swift */,
+				D34A05972C2EC6BB005145C0 /* SideCartView.swift */,
+				D34A059B2C2EC81D005145C0 /* CartItemView.swift */,
+			);
+			path = SupportingWiev;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3C0D8AF2C28914B00CEF1FD /* Yuem Tshirt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C0D8D42C28914D00CEF1FD /* Build configuration list for PBXNativeTarget "Yuem Tshirt" */;
+			buildPhases = (
+				D3C0D8AC2C28914B00CEF1FD /* Sources */,
+				D3C0D8AD2C28914B00CEF1FD /* Frameworks */,
+				D3C0D8AE2C28914B00CEF1FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yuem Tshirt";
+			productName = "Yuem Tshirt";
+			productReference = D3C0D8B02C28914B00CEF1FD /* Yuem Tshirt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3C0D8BF2C28914D00CEF1FD /* Yuem TshirtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C0D8D72C28914D00CEF1FD /* Build configuration list for PBXNativeTarget "Yuem TshirtTests" */;
+			buildPhases = (
+				D3C0D8BC2C28914D00CEF1FD /* Sources */,
+				D3C0D8BD2C28914D00CEF1FD /* Frameworks */,
+				D3C0D8BE2C28914D00CEF1FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3C0D8C22C28914D00CEF1FD /* PBXTargetDependency */,
+			);
+			name = "Yuem TshirtTests";
+			productName = "Yuem TshirtTests";
+			productReference = D3C0D8C02C28914D00CEF1FD /* Yuem TshirtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3C0D8C92C28914D00CEF1FD /* Yuem TshirtUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C0D8DA2C28914D00CEF1FD /* Build configuration list for PBXNativeTarget "Yuem TshirtUITests" */;
+			buildPhases = (
+				D3C0D8C62C28914D00CEF1FD /* Sources */,
+				D3C0D8C72C28914D00CEF1FD /* Frameworks */,
+				D3C0D8C82C28914D00CEF1FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3C0D8CC2C28914D00CEF1FD /* PBXTargetDependency */,
+			);
+			name = "Yuem TshirtUITests";
+			productName = "Yuem TshirtUITests";
+			productReference = D3C0D8CA2C28914D00CEF1FD /* Yuem TshirtUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3C0D8A82C28914B00CEF1FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					D3C0D8AF2C28914B00CEF1FD = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					D3C0D8BF2C28914D00CEF1FD = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = D3C0D8AF2C28914B00CEF1FD;
+					};
+					D3C0D8C92C28914D00CEF1FD = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = D3C0D8AF2C28914B00CEF1FD;
+					};
+				};
+			};
+			buildConfigurationList = D3C0D8AB2C28914B00CEF1FD /* Build configuration list for PBXProject "Yuem Tshirt" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3C0D8A72C28914B00CEF1FD;
+			productRefGroup = D3C0D8B12C28914B00CEF1FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3C0D8AF2C28914B00CEF1FD /* Yuem Tshirt */,
+				D3C0D8BF2C28914D00CEF1FD /* Yuem TshirtTests */,
+				D3C0D8C92C28914D00CEF1FD /* Yuem TshirtUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3C0D8AE2C28914B00CEF1FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38C24892C29A51E00E89DA4 /* TenorSans-Regular.ttf in Resources */,
+				D3C0D8BB2C28914D00CEF1FD /* Preview Assets.xcassets in Resources */,
+				D3C0D8B82C28914D00CEF1FD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C0D8BE2C28914D00CEF1FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C0D8C82C28914D00CEF1FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3C0D8AC2C28914B00CEF1FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D336673A2C2D80F500D59CE2 /* GenderView.swift in Sources */,
+				D34A05982C2EC6BB005145C0 /* SideCartView.swift in Sources */,
+				D3C0D8E32C28929900CEF1FD /* typealiases.swift in Sources */,
+				D3C58F352C2C39410066BCBE /* FooterView.swift in Sources */,
+				D3C0D8B62C28914B00CEF1FD /* ContentView.swift in Sources */,
+				D3C58F2B2C2C130F0066BCBE /* Product.swift in Sources */,
+				D3C0D8E72C2892BD00CEF1FD /* Enums.swift in Sources */,
+				D3C58F332C2C36200066BCBE /* HashtagsView.swift in Sources */,
+				D3C58F2F2C2C21960066BCBE /* ProductitemView.swift in Sources */,
+				D3C58F2D2C2C1CD50066BCBE /* CategoryView.swift in Sources */,
+				D3C58F312C2C35DA0066BCBE /* TrendingHashtagsView.swift in Sources */,
+				D398F8712C2D528A000538DF /* SideView.swift in Sources */,
+				D38C248D2C29A9FB00E89DA4 /* ColourAndExtensions.swift in Sources */,
+				D34A059C2C2EC81D005145C0 /* CartItemView.swift in Sources */,
+				D3B9AF782C34185200C2830E /* CheckoutView.swift in Sources */,
+				D3C902E72C32B8430092C82C /* ProductsList.swift in Sources */,
+				D3C0D8EB2C28930500CEF1FD /* HomeView.swift in Sources */,
+				D3C0D8B42C28914B00CEF1FD /* Yuem_TshirtApp.swift in Sources */,
+				D3C902E92C32BA460092C82C /* ProductDetailsView.swift in Sources */,
+				D34A059A2C2EC703005145C0 /* CartItem.swift in Sources */,
+				D398F86F2C2D524F000538DF /* SideMenuView.swift in Sources */,
+				D3C0D8E52C2892B100CEF1FD /* Constants.swift in Sources */,
+				D3C0D8ED2C28975C00CEF1FD /* HeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C0D8BC2C28914D00CEF1FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C0D8C52C28914D00CEF1FD /* Yuem_TshirtTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C0D8C62C28914D00CEF1FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C0D8D12C28914D00CEF1FD /* Yuem_TshirtUITestsLaunchTests.swift in Sources */,
+				D3C0D8CF2C28914D00CEF1FD /* Yuem_TshirtUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3C0D8C22C28914D00CEF1FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3C0D8AF2C28914B00CEF1FD /* Yuem Tshirt */;
+			targetProxy = D3C0D8C12C28914D00CEF1FD /* PBXContainerItemProxy */;
+		};
+		D3C0D8CC2C28914D00CEF1FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3C0D8AF2C28914B00CEF1FD /* Yuem Tshirt */;
+			targetProxy = D3C0D8CB2C28914D00CEF1FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D3C0D8D22C28914D00CEF1FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3C0D8D32C28914D00CEF1FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3C0D8D52C28914D00CEF1FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Yuem Tshirt/Preview Content\"";
+				DEVELOPMENT_TEAM = NPPKFF59HD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yuem-Tshirt-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emreyilmaz.Yuem-Tshirt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3C0D8D62C28914D00CEF1FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Yuem Tshirt/Preview Content\"";
+				DEVELOPMENT_TEAM = NPPKFF59HD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yuem-Tshirt-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emreyilmaz.Yuem-Tshirt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3C0D8D82C28914D00CEF1FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NPPKFF59HD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emreyilmaz.Yuem-TshirtTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yuem Tshirt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yuem Tshirt";
+			};
+			name = Debug;
+		};
+		D3C0D8D92C28914D00CEF1FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NPPKFF59HD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emreyilmaz.Yuem-TshirtTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yuem Tshirt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yuem Tshirt";
+			};
+			name = Release;
+		};
+		D3C0D8DB2C28914D00CEF1FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NPPKFF59HD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emreyilmaz.Yuem-TshirtUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yuem Tshirt";
+			};
+			name = Debug;
+		};
+		D3C0D8DC2C28914D00CEF1FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NPPKFF59HD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emreyilmaz.Yuem-TshirtUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yuem Tshirt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3C0D8AB2C28914B00CEF1FD /* Build configuration list for PBXProject "Yuem Tshirt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C0D8D22C28914D00CEF1FD /* Debug */,
+				D3C0D8D32C28914D00CEF1FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3C0D8D42C28914D00CEF1FD /* Build configuration list for PBXNativeTarget "Yuem Tshirt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C0D8D52C28914D00CEF1FD /* Debug */,
+				D3C0D8D62C28914D00CEF1FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3C0D8D72C28914D00CEF1FD /* Build configuration list for PBXNativeTarget "Yuem TshirtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C0D8D82C28914D00CEF1FD /* Debug */,
+				D3C0D8D92C28914D00CEF1FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3C0D8DA2C28914D00CEF1FD /* Build configuration list for PBXNativeTarget "Yuem TshirtUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C0D8DB2C28914D00CEF1FD /* Debug */,
+				D3C0D8DC2C28914D00CEF1FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3C0D8A82C28914B00CEF1FD /* Project object */;
+}
